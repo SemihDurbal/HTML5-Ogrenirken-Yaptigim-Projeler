@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head lang ="tr">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu</h1>
+        <form name= "İsim" action = "kayit.php" method="get">
+            Ad Soyad : <input type="text" name="adsoyad" max="20" required>
+            <br>
+            <br>
+            Şifre : <input type="password" name = "sifre" max="16" required>
+            <br>
+            <br>
+            E-Mail : <input type="email" name="email" required>
+            <br>
+            <br>
+            Yaşınız : <input type="number" name="yas" maxlength="3" required>
+            <br>
+            <br>
+            Web Siteniz : <input type="url" name="website">
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Onayla">
+            <input type="reset" value="Temizle">
+        </form>
+    </body>
+</html>
